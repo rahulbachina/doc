@@ -1,183 +1,1203 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <head lang="en">
-	<meta http-equiv="content-type" content="text/html;charset=utf-8">
-	<title>Template Documentation Template</title>
-	<!-- Framework CSS -->
-	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
-	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
-	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
-	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
-	<style type="text/css" media="screen">
-		p, table, hr, .box { margin-bottom:25px; }
-		.box p { margin-bottom:10px; }
-	</style>
+    <meta http-equiv="content-type"
+          content="text/html;charset=utf-8">
+    <title>Template Documentation Template</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet"
+          href="assets/blueprint-css/screen.css"
+          type="text/css"
+          media="screen, projection">
+    <link rel="stylesheet"
+          href="assets/blueprint-css/print.css"
+          type="text/css"
+          media="print">
+    <!--[if lt IE 8]>
+    <link rel="stylesheet"
+          href="assets/blueprint-css/ie.css"
+          type="text/css"
+          media="screen, projection"><![endif]-->
+    <link rel="stylesheet"
+          href="assets/blueprint-css/plugins/fancy-type/screen.css"
+          type="text/css"
+          media="screen, projection">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <style type="text/css"
+           media="screen">
+        p, table, hr, .box {
+            margin-bottom: 25px;
+        }
+
+        .box p {
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .table > tbody > tr > td:first-child, h4 {
+            font-weight: bold;
+        }
+
+        .grid {
+
+        }
+
+        .grid img {
+            max-width: 200px;
+            display: block;
+            float: left;
+            margin-right: 15px;
+            border: 1px solid #ddd;
+            box-shadow: 3px 6px 15px 0px rgba(51, 51, 51, 0.35);
+        }
+
+    </style>
 </head>
 
 
 <body>
-	<div class="container">
-	
-		<h3 class="center alt">&ldquo;Template Name&rdquo; Documentation by &ldquo;Template Author&rdquo; v1.0</h3>
-		
-		<hr>
-		
-		<h1 class="center">&ldquo;Template Name&rdquo;</h1>
-		
-		<div class="borderTop">
-			<div class="span-6 colborder info prepend-1">
-				<p class="prepend-top">
-					<strong>
-					Created: x/x/xxxx<br>
-					By: Your Name<br>
-					Email: <a href="mailto:youremail@yourdomain.com">youremail@yourdomain.com</a>
-					</strong>
-				</p>
-			</div><!-- end div .span-6 -->		
-	
-			<div class="span-12 last">
-				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/USERNAME">here</a>. Thanks so much!</p>
-			</div>
-		</div><!-- end div .borderTop -->
-		
-		<hr>
-		
-		<h2 id="toc" class="alt">Table of Contents</h2>
-		<ol class="alpha">
-			<li><a href="#htmlStructure">HTML Structure</a></li>
-			<li><a href="#cssFiles">CSS Files and Structure</a></li>
-			<li><a href="#javascript">JavaScript</a></li>
-			<li><a href="#psdFiles">PSD Files</a></li>
-			<li><a href="#credits">Sources and Credits</a></li>
-			
-			<li><a href="#">PHP Code Explanation</a> <em class="quiet small">(If your theme uses PHP)</em></li>
-			<li><a href="#">Flash</a>  <em class="quiet small">(If your theme uses Flash)</em></li>
-			<li><a href="#">API Usage</a> <em class="quiet small">(If your theme uses an API)</em></li>
-			<li><a href="#">Any additional unique features that need an overview</a></li>
-		</ol>
-		
-		<hr>
-		
-		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
-		<p>This theme is a fixed layout with two columns. All of the information within the main content area is nested within a div with an id of "primaryContent". The sidebar's (column #2) content is within a div with an id of "secondaryContent". The general template structure is the same throughout the template. Here is the general structure.</p>
-		
-		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
-		
-		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+<div class="container">
 
-<pre>	#primaryContent a {
-		color: #someColor;
-	} 
-</pre>
+    <h3 class="center alt">"Photogram" Documentation by "Willian Ribeiro Angelo" v1.0</h3>
 
-		<p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+    <hr>
 
-		<p>I.E.</p>
+    <h1 class="center">"Photogram" - Ionic and Parse Instagram Inspired</h1>
 
-<pre>	#wrap #primaryContent a {
-		color: #someColor;
-	}
-</pre>
+    <hr>
 
-		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+    <p>
+        <img src="assets/images/image1.jpg">
+    </p>
 
-		<hr>
+    <div class="borderTop">
+        <div class="span-8 colborder info prepend-1">
+            <p class="prepend-top">
+                <strong>
+                    Created: 08/2015<br>
+                    By: Willian Ribeiro Angelo<br>
+                    Email: <a href="mailto:agfoccus@gmail.com">agfoccus@gmail.com</a>
+                </strong>
+            </p>
+        </div><!-- end div .span-6 -->
 
-		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+        <div class="span-12 last">
+            <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond
+                                            the scope of this help file, please feel free to email via my user page
+                                            contact form <a href="http://themeforest.net/user/agfoccus">here</a>. Thanks
+                                            so much!</p>
+        </div>
+    </div><!-- end div .borderTop -->
 
-		<p>I'm using two CSS files in this theme. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</p> 
+    <hr>
 
-		<p>The second file contains all of the specific stylings for the page. The file is separated into sections using:</p>  
+    <h2 id="toc"
+        class="alt">Table of Contents</h2>
+    <ol class="alpha">
+        <li><a href="#feature">Features</a></li>
+        <li><a href="#screen">Screen</a></li>
+        <li><a href="#ionic">Getting Started with Ionic Framework</a></li>
+        <li><a href="#projectfolder">Project Structure</a></li>
+        <li><a href="#analytics">Ionic Analytics</a></li>
+        <li><a href="#facebook">Facebook Configuration </a></li>
+        <li><a href="#parse">Parse Configuration </a></li>
+        <li><a href="#browser">Test and Debug in Browser </a></li>
+        <li><a href="#ios">Test and Debug in iOS </a></li>
+        <li><a href="#android">Test and Debug in Android </a></li>
+        <li><a href="#bump">Bump Version</a></li>
+        <li><a href="#support">Full Support</a></li>
+    </ol>
 
-<pre>	/* === Header Section === */
 
-	some code
+    <hr>
+    <h3 id="feature"><strong>A) Features</strong> - <a href="#toc">top</a></h3>
 
-	/* === Main Section === */
-	
-	some code
-	
-	/* === Sidebar Section === */
-	
-	some code
-	
-	/* === Footer === */
-	
-	some code
-	
-	etc, etc. 
-</pre>
-		
-		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+    <p>Ionic is a powerful, beautiful and easy to use open source front-end framework built on top of AngularJs (a
+       client-side javascript framework), Sass Syntactically Awesome Style Sheets Apache Cordova for developing
+       hybrid (cross platform) mobile apps.</p>
 
-		<p>Any images that are placed within the blog section have 5px worth of padding and a light bluish background. If you would like to edit the display of these images, find the following section in the style sheet:</p>
+    <ul>
+        <li>PhoneGap / Cordova Full Hybrid App using AngularJS + Ionic framework + Parse</li>
+        <li>Ionic framework open source front-end SDK for developing hybrid mobile apps with HTML5</li>
+        <li>AngularJS Pattern Structure for Controllers, Directives, Filters, Services, Factories</li>
+        <li>Complete and easy guide to help you understand and use this app.</li>
+        <li>Full Support!</li>
+        <li>Beautiful UI/UX with Animate Transitions!</li>
+        <li>Easy style customization</li>
+        <li>Easy work Multi language</li>
+        <li>Angular Formly for generate forms with translation</li>
+        <li>Facebook Integration Native (cordova) or web browser automatic detect</li>
+        <li>Google Maps Integration with near share photos</li>
+        <li>Camera and Image picker – Capture camera or access the phone gallery for edit and upload photos</li>
+        <li><a href="http://docs.ionic.io/"
+               target="_blank">Ionic Integration</a></li>
+        <ul>
+            <li><a href="http://docs.ionic.io/"
+                   target="_blank">Ionic Core</a></li>
+            <li><a href="http://docs.ionic.io/docs/analytics-auto-tracking"
+                   target="_blank">Ionic Analytics</a></li>
+        </ul>
+        <li>Angular Cordova Plugins <a href="http://ngcordova.com/"
+                                       target="_blank">ngCordova</a></li>
+        <ul>
+            <li><a href="http://ngcordova.com/docs/plugins/device/"
+                   target="_blank">Device</a></li>
+            <li><a href="http://ngcordova.com/docs/plugins/statusbar/"
+                   target="_blank">Status Bar</a></li>
+            <li><a href="http://ngcordova.com/docs/plugins/camera/"
+                   target="_blank">Camera</a></li>
+            <li><a href="http://ngcordova.com/docs/plugins/imagePicker/"
+                   target="_blank">Image Picker</a></li>
+            <li><a href="http://ngcordova.com/docs/plugins/geolocation/"
+                   target="_blank">Geoloation</a></li>
+            <li><a href="http://ngcordova.com/docs/plugins/network/"
+                   target="_blank">Network</a></li>
+            <li><a href="http://ngcordova.com/docs/plugins/facebook/"
+                   target="_blank">Native Facebook</a></li>
+        </ul>
+        <li>User with Parse Integration</li>
+        <ul>
+            <li>Login</li>
+            <li>Signup</li>
+            <li>Form validation</li>
+            <li>Forgot password</li>
+            <li>Login or Create automatic with Facebook Integration native or browser</li>
+        </ul>
+        <li>Photogram</li>
+        <ul>
+            <li>List with like, comments and Affix</li>
+            <li>Grid Photos with Search</li>
+            <li>Map with Near Filter and Map Events</li>
+            <li>Upload Photo before image picker or capture, after add Geolocation with photo description</li>
+            <li>Share photo before uploading</li>
+        </ul>
+        <li>Build Hooks</li>
+        <ul>
+            <li>Inject HTML, CSS processed Sass, Javascript and Bower Libs automatic!</li>
+            <li>Minify application within 95%</li>
+            <li>Ionic upload minify application</li>
+            <li>Ionic run and build optional minify application</li>
+        </ul>
+    </ul>
 
-<pre>	#primaryContent #blog img {
-		change styles here:
-	}
-</pre>
 
-		<hr>
-		
-		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
-		
-		<p>This theme imports three Javascript files.</p>
-		
-		<ol>
-			<li>jQuery</li>
-			<li>My custom scripts</li>
-			<li>Some plugin</li>
-		</ol>
-		  
-		<ol>
-			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
-			<li>Most of the animation in this site is carried out from the customs scripts. There are a few functions worth looking over.
-<pre>	[some Javascript goes here...along with an general explanation]
-	[some Javascript goes here...along with an general explanation]
-	[some Javascript goes here...along with an general explanation]
-</pre>
-			</li>
-			<li>In addition to the custom scripts, I implement a few "tried and true" plugins to create the effects. This plugin is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method. For example:
-<pre>	[some Javascript goes here...along with an general explanation]</pre>
-			</li>
-		</ol>
-		
-		<hr>
-		
-		<h3 id="psdFiles"><strong>D) PSD Files</strong> - <a href="#toc">top</a></h3>
-		
-		<p>I've included three psds with this theme:</p>
-		
-			<ol>
-				<li>The main layout</li>
-				<li>The header</li>
-				<li>The buttons</li>
-			</ol>
-		
-		<p>If you'd like to change the main image in the header, open "header.psd", make the necessary adjustments, and then save the file as "headerBG.png". Do the same for the buttons.</p> 
-		
-		<p>Include any more specific information about your psds.</p>
-		
-		<hr>
-		
-		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
-		
-		<p>I've used the following images, icons or other files as listed.
-		
-		<ul>
-			<li>File name from file author</li>
-			<li>File name from file author</li>
-			<li>File name from file author</li>
-			<li>File name from file author</li>
-		</ul>
-		
-		<hr>
-		
-		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
-		
-		<p class="append-bottom alt large"><strong>Your Name</strong></p>
-		<p><a href="#toc">Go To Table of Contents</a></p>
-		
-		<hr class="space">
-	</div><!-- end div .container -->
+    <hr>
+
+    <h3 id="screen"><strong>B) Screens</strong> - <a href="#toc">top</a></h3>
+
+    <div class="grid">
+        <img src="assets/images/splash.png">
+        <img src="assets/images/screen_home.png">
+        <img src="assets/images/screen_search_grid.png">
+        <img src="assets/images/screen_user.png">
+        <img src="assets/images/screen_profile_edit.png">
+
+    </div>
+
+    <hr>
+
+    <h3 id="ionic"><strong>C) Getting Started with Ionic Framework</strong> - <a href="#toc">top</a></h3>
+
+    <p>Ionic's ultimate goal is to make it easier to develop native mobile apps with HTML5, also known as Hybrid
+       apps.</p>
+
+    <h4>Install NodeJS</h4>
+    <ul>
+        <li>
+            Install nodejs: <a href="http://nodejs.org/"
+                               target="_blank">http://nodejs.org/</a>
+        </li>
+    </ul>
+
+    <h4>Console Commands</h4>
+    <ul>
+        <li>$ npm install -g ionic cordova</li>
+    </ul>
+
+    <h4>Build and run app on iOS</h4>
+
+    <p>
+    <ol>
+        <li>Install iOS emulator</li>
+        <li>Change directory to app directory</li>
+        <li>Add iOS platform</li>
+        <li>Build app for iOS</li>
+        <li>Emulate app</li>
+        <li>Or run app on connected iOS device</li>
+    </ol>
+
+
+    <ul>
+        <li>$ sudo npm install -g ios-sim</li>
+        <li>$ ionic platform add ios</li>
+        <li>$ ionic build ios</li>
+        <li>$ ionic emulate ios</li>
+        <li>$ ionic run ios</li>
+    </ul>
+    </p>
+
+    <h4>Ionic Cli Commands</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th width="300">Command</th>
+                    <th>Descriptions</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <td>$ ionic help</td>
+                    <td>Enter either ionic --help or ionic help command(s) for more detailed task information.</td>
+                </tr>
+                <tr>
+                    <td>$ ionic serve [options]</td>
+                    <td>Testing in a Browser <a href="http://ionicframework.com/docs/cli/test.html"
+                                                target="_blank">More Information</a></td>
+                </tr>
+
+                <tr>
+                    <td>$ ionic platform [option] [platform]</td>
+                    <td>Run and Emulate <a href="http://ionicframework.com/docs/cli/run.html"
+                                           target="_blank">More Information</a></td>
+                </tr>
+
+                <tr>
+                    <td>$ ionic resources [option]"</td>
+                    <td>Icon and Splashscreen generate
+                        <a href="http://ionicframework.com/docs/cli/icon-splashscreen.html"
+                           target="_blank">More Information</a></td>
+                </tr>
+
+                <tr>
+                    <td>$ ionic info</td>
+                    <td>If you are on a Mac, this should provide you information like the following.</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+
+    <h4>Gulp Commands</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th width="200">Command</th>
+                    <th>Descriptions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>$ gulp</td>
+                    <td>Compile dev structure</td>
+                </tr>
+
+                <tr>
+                    <td>$ gulp inject</td>
+                    <td>This command inject automatic bower dependecys, html, css and javascript files</td>
+                </tr>
+
+                <tr>
+                    <td>$ gulp sass</td>
+                    <td>Compile Sass file (scss/ionic.app.scss) and generate CSS file (www/css/ion.app.css)</td>
+                </tr>
+
+                <tr>
+                    <td>$ gulp translate</td>
+                    <td>This command use <a href="http://angular-gettext.rockteer.be"
+                                            target="_blank">angular-gettext</a>, it find string and code for generate
+                        translations for application, more instructions in
+                        <a href="https://angular-gettext.rocketeer.be/dev-guide/"
+                           target="_blank"> Developer Instruction</a></td>
+                </tr>
+
+                <tr>
+                    <td>$ gulp prod</td>
+                    <td>Compile dev structure</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr>
+
+    <h4>Build Commands</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th width="200">Command</th>
+                    <th>Descriptions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>$ ./build platform</td>
+                    <td>Change plaform for platform (android, ios,etc) for build minify application</td>
+                </tr>
+
+                <tr>
+                    <td>$ ./run platform</td>
+                    <td>Change plaform for platform (android, ios,etc) for build and run minify application</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr>
+
+    <h4>Bump Version</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th width="250">Command</th>
+                    <th>Descriptions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>$ gulp bump --patch</td>
+                    <td>PATCH ("patch") version when you make backwards-compatible bug fixes. -- patch: 0.0.2</td>
+                </tr>
+                <tr>
+                    <td>$ gulp bump --minor</td>
+                    <td>MINOR ("minor") version when you add functionality in a backwards-compatible manner -- minor:
+                        0.1.0
+                    </td>
+                </tr>
+                <tr>
+                    <td>$ gulp bump --major</td>
+                    <td>MAJOR ("major") version when you make incompatible API changes -- major: 1.0.0</td>
+                </tr>
+                <tr>
+                    <td>$ gulp bump --prerelease</td>
+                    <td>PRERELEASE ("prerelease") a pre-release version -- prerelease: 0.0.1-2</td>
+                </tr>
+                <tr>
+                    <td>$ gulp bump --setversion=2.1.0</td>
+                    <td>set aplication version</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+
+    <h4>Bash Commands</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th width="300">Command</th>
+                    <th>Descriptions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>$ bin/build "platform"</td>
+                    <td>
+                        <ul>
+                            <li>Minify Aplication</li>
+                            <li>Change Folders for Minify Application</li>
+                            <li>$ cordova build "platform" --relase</li>
+                            <li>Return folders original name</li>
+                        </ul>
+                        Obs: CHANGE "platform" for android, ios:
+                    </td>
+                </tr>
+                <tr>
+                    <td>$ bin/upload --note="New Version"</td>
+                    <td>
+                        <ul>
+                            <li>Minify Aplication</li>
+                            <li>Change Folders for Minify Application</li>
+                            <li>ionic upload --note "Your note"</li>
+                            <li>Return folders original name</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$ bin/run "platform"</td>
+                    <td>
+                        <ul>
+                            <li>Minify Aplication</li>
+                            <li>Change Folders for Minify Application</li>
+                            <li>$ cordova build platform --relase</li>
+                            <li>Return folders original name</li>
+                        </ul>
+                        Obs: CHANGE "platform" for android, ios:
+                    </td>
+                </tr>
+                <tr>
+                    <td>$ bin/release "platform"</td>
+                    <td>
+                        <ul>
+                            <li>Minify Aplication</li>
+                            <li>Change Folders for Minify Application</li>
+                            <li>$ ionic run "platform" --device</li>
+                            <li>Return folders original name</li>
+                        </ul>
+                        Obs: CHANGE "platform" for android, ios:
+                    </td>
+                </tr>
+                <tr>
+                    <td>$ bin/folderprod</td>
+                    <td>
+                        <ul>
+                            <li>Rename folder www to temp</li>
+                            <li>Rename folder dist to www</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$ bin/folderdev</td>
+                    <td>
+                        <ul>
+                            <li>Rename folder www to dist</li>
+                            <li>Rename folder temp to www</li>
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+
+    <h3 id="projectfolder"><strong>D) Project Structure</strong> - <a href="#toc">top</a></h3>
+
+    <p>For use this application, you need to configure your app with Facebook and Parse.</p>
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th width="250">Folder</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>Resources/</td>
+                    <td>Images for Ionic Cli generate Icon and Splash Screem</td>
+                </tr>
+
+                <tr>
+                    <td>scss/</td>
+                    <td>Ionic Sass Files</td>
+                </tr>
+
+                <tr>
+                    <td>translate/</td>
+                    <td>Files for translation app</td>
+                </tr>
+
+                <tr>
+                    <td>www/</td>
+                    <td>Code for aplication</td>
+                </tr>
+
+                <tr>
+                    <td>www/css/</td>
+                    <td>CSS files genered for sass compile</td>
+                </tr>
+
+                <tr>
+                    <td>www/js/</td>
+                    <td>Initial javascript files</td>
+                </tr>
+
+                <tr>
+                    <td>www/img/</td>
+                    <td>Image files</td>
+                </tr>
+
+                <tr>
+                    <td>www/lib/</td>
+                    <td>Bower libray files</td>
+                </tr>
+
+                <tr>
+                    <td>www/app/</td>
+                    <td>Folder for initial modules</td>
+                </tr>
+
+                <tr>
+                    <td>www/app/core/</td>
+                    <td>Core module, is module for global instructions</td>
+                </tr>
+
+                <tr>
+                    <td>www/app/core/filter/</td>
+                    <td>AngularJS global filters</td>
+                </tr>
+                <tr>
+                    <td>www/app/core/service/</td>
+                    <td>AngularJS global services</td>
+                </tr>
+                <tr>
+                    <td>www/app/core/style/</td>
+                    <td>Sass (.scss) files for global style</td>
+                </tr>
+                <tr>
+                    <td>www/app/core/view/</td>
+                    <td>HTML Files</td>
+                </tr>
+
+                <tr>
+                    <td>www/app/user/</td>
+                    <td>AngularJS User Module</td>
+                </tr>
+
+                <tr>
+                    <td>www/app/user/config/</td>
+                    <td>AngularJS User Configuration</td>
+                </tr>
+
+                <tr>
+                    <td>www/app/user/controller/</td>
+                    <td>AngularJS User Controller</td>
+                </tr>
+                <tr>
+                    <td>www/app/user/directive/</td>
+                    <td>AngularJS User Directives</td>
+                </tr>
+                <tr>
+                    <td>www/app/user/service/</td>
+                    <td>AngularJS User Services</td>
+                </tr>
+
+                <tr>
+                    <td>www/app/user/style/</td>
+                    <td>Sass (.scss) files for automatic sass generate</td>
+                </tr>
+
+                <tr>
+                    <td>www/app/user/view/</td>
+                    <td>HTML Files</td>
+                </tr>
+                <tr>
+                    <td>www/component/ion-affix/</td>
+                    <td>Description</td>
+                </tr>
+
+                <tr>
+                    <td>www/component/ion-loading/</td>
+                    <td>Description</td>
+                </tr>
+
+                <tr>
+                    <td>www/component/ion-location/</td>
+                    <td>Description</td>
+                </tr>
+
+                <tr>
+                    <td>www/module/</td>
+                    <td>AngularJS Module Folder</td>
+                </tr>
+
+                <tr>
+                    <td>www/module/gallery/</td>
+                    <td>AngularJS User Module</td>
+                </tr>
+
+                <tr>
+                    <td>www/module/gallery/config/</td>
+                    <td>AngularJS User Configuration</td>
+                </tr>
+
+                <tr>
+                    <td>www/module/gallery/controller/</td>
+                    <td>AngularJS User Controller</td>
+                </tr>
+                <tr>
+                    <td>www/module/gallery/directive/</td>
+                    <td>AngularJS User Directives</td>
+                </tr>
+                <tr>
+                    <td>www/module/gallery/service/</td>
+                    <td>AngularJS User Services</td>
+                </tr>
+
+                <tr>
+                    <td>www/module/gallery/style/</td>
+                    <td>Sass (.scss) files for automatic sass generate</td>
+                </tr>
+
+                <tr>
+                    <td>www/module/gallery/view/</td>
+                    <td>HTML Files</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <hr>
+    <h3 id="analytics"><strong>E) Ionic Analytics</strong> - <a href="#toc">top</a></h3>
+
+    <img src="assets/images/analytics.png">
+    <h4>Why is analytics important?</h4>
+
+    <p>How many users are on your app right now? How many of those will use your app tomorrow, or next week? Without
+       information, you have no way of telling if your app is being used in the ways that you expect.If you've completed
+       the Installation Guide, your Ionic app is already collecting data. This will get you core data that you need to
+       understand your userbase, like retention and user growth rates. In addition, you get a view of what individual
+       users do as they navigate your app.</p>
+
+    <ul>
+        <li>$ ionic io init</li>
+    </ul>
+
+    <h4>Config files</h4>
+    <p>For to change configuration, you need edit files</p>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th width="250">File</th>
+                    <th>Descriptions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>.ion-config.json</td>
+                    <td>Configuration with ionic app id and api key</td>
+                </tr>
+                <tr>
+                    <td>ionic.project</td>
+                    <td>Configuration with ionic app id
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+
+    <hr>
+    <h3 id="facebook"><strong>E) Facebook Configuration </strong> - <a href="#toc">top</a></h3>
+
+    <p>For use this application, you need to configure your app with Facebook and Parse.</p>
+
+    <p><strong>Facebook</strong> : Acess Facebook Developper and create a app to
+        <a href="http://developers.facebook.com">http://developers.facebook.com</a></p>
+
+    <p>The Facebook Connect plugin to obtain access to the native FB application on iOS and Android. This plugin is not
+       simple to install so make sure to check out the official docs.</p>
+
+    <p><a href="http://ngcordova.com/docs/plugins/facebook/">ngCordova Full Documentation</a></p>
+
+    <p><b>Pre-Install</b></p>
+
+    <p>To use the FB plugin, you first have to create a new Facebook App inside of the Facebook developer portal at
+       https://developers.facebook.com.</p>
+    <img src="assets/images/facebook1.png">
+    <hr>
+
+    <p>Retrieve the App ID and App Name, which will be required to setup your cordova app and for web-development.</p>
+    <img src="assets/images/facebook2.png">
+    <hr>
+
+    <p><b>Insert Config Keys in www/js/facebook.config</b></p>
+    <img src="assets/images/facebook-config.jpg">
+    <hr>
+
+    <p><b>iOS Install</b></p>
+
+    <p>Download the repo from https://github.com/Wizcorp/phonegap-facebook-plugin. Then type in the following commands
+       in your Terminal.</p>
+
+    <ore>$ cordova plugin add https://github.com/Wizcorp/phonegap-facebook-plugin.git --variable APP_ID="123456789"
+         --variable APP_NAME="myApplication"
+    </ore>
+
+    <h3 id="parse"><strong>F) Parse Getting Stared</strong> - <a href="#toc">top</a></h3>
+
+    <p>For use this application, you need to configure your app with Parse.</p>
+
+    <p><strong>Parse</strong> : Parse is a BaaS <em>( Backend as a Service )</em>, wich allows you to manage your
+                              application <em>( users, messages, ... )</em>, ans also to be able to send and receive
+                              messages. Create a free account to <a href="http://parse.com">http://parse.com</a>, and
+                              create a app. Get the AppKeys <em>( Application ID &amp; Client Key )</em>, and add to
+                              your project <em>( www/js/config.js )</em>.</p>
+
+    <p>
+    </p>
+
+    <h4>Access Parse Site</h4>
+    <img src="assets/images/parse_home.png">
+    <hr>
+
+    <h4>Create Account</h4>
+    <img src="assets/images/parse_register.png">
+    <hr>
+
+    <h4>Click for Data Option</h4>
+    <img src="assets/images/parse_step1.png">
+    <hr>
+
+    <h4>Click for Web Option</h4>
+    <img src="assets/images/parse_step2.png">
+    <hr>
+
+    <h4>Click for New Project Option</h4>
+    <img src="assets/images/parse_step3.png">
+    <hr>
+
+    <h4>Copy Javascripts Keys and modify config file in www/js/config.js</h4>
+    <img src="assets/images/parse_step4.png">
+    <hr>
+
+    <h4>Enter in Settings for Show Keys</h4>
+    <img src="assets/images/parse_settings.png">
+    <hr>
+
+    <p><b>Insert Config Keys in www/js/parse.config.js</b></p>
+    <img src="assets/images/parse-config.jpg">
+
+    <h4>Create Class User</h4>
+    <img src="assets/images/parse_step5.png">
+    <hr>
+
+    <h4>Select User Class</h4>
+    <img src="assets/images/parse_step6.png">
+    <hr>
+
+    <h4>After create Class, add column with table types specify</h4>
+    <img src="assets/images/parse_step7.png">
+    <hr>
+
+    <hr>
+    <h4>Create User Class</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped table-bordered">
+                <thead>
+                <tr class="head">
+                    <th width="150">Input</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+                <tr>
+                    <td>birthday</td>
+                    <td>Date</td>
+                </tr>
+
+                <tr>
+                    <td>device</td>
+                    <td>Object</td>
+                </tr>
+
+                <tr>
+                    <td>gender</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>img</td>
+                    <td>File</td>
+                </tr>
+
+                <tr>
+                    <td>language</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>phone</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>deviceCordova</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>deviceModel</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>devicePlatform</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>deviceUuiid</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>deviceVersion</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>facebook</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>facebookImg</td>
+                    <td>String</td>
+                </tr>
+
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <img src="assets/images/parse_user.png">
+
+    <hr>
+    <h4>Create UserFollow Class</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped table-bordered">
+                <thead>
+                <tr class="head">
+                    <th width="150">Input</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>user</td>
+                    <td>Poiter User</td>
+                </tr>
+
+                <tr>
+                    <td>follow</td>
+                    <td>Poiter User</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <img src="assets/images/parse_user_follow.png">
+
+    <hr>
+    <h4>Create GalleryComment Class</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped table-bordered">
+                <thead>
+                <tr class="head">
+                    <th width="150">Input</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>title</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>commentBy</td>
+                    <td>Pointer user</td>
+                </tr>
+
+                <tr>
+                    <td>gallery</td>
+                    <td>Pointer Gallery</td>
+                </tr>
+
+                <tr>
+                    <td>galleryId</td>
+                    <td>String</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <img src="assets/images/parse_gallery_comment.png">
+
+    <hr>
+    <h4>Create Gallery Class</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped table-bordered">
+                <thead>
+                <tr class="head">
+                    <th width="150">Input</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>title</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>user</td>
+                    <td>Pointer user</td>
+                </tr>
+
+                <tr>
+                    <td>aprove</td>
+                    <td>Boolean</td>
+                </tr>
+
+                <tr>
+                    <td>comments</td>
+                    <td>Relation GalleryComment</td>
+                </tr>
+
+                <tr>
+                    <td>img</td>
+                    <td>File</td>
+                </tr>
+
+                <tr>
+                    <td>likes</td>
+                    <td>Relation GalleryLike</td>
+                </tr>
+
+                <tr>
+                    <td>location</td>
+                    <td>Geopoint</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <img src="assets/images/parse_Gallery.png">
+
+    <hr>
+    <h4>Create GalleryActivity Class</h4>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped table-bordered">
+                <thead>
+                <tr class="head">
+                    <th width="150">Input</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>user</td>
+                    <td>Pointer user</td>
+                </tr>
+
+                <tr>
+                    <td>gallery</td>
+                    <td>Pointer Gallery</td>
+                </tr>
+
+                <tr>
+                    <td>action</td>
+                    <td>String</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <img src="assets/images/parse_gallery_activity.png">
+
+    <hr>
+    <h4>Create GalleryFeedback Class</h4>
+
+    <div class="col-md-12">
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr class="head">
+                <th width="150">Input</th>
+                <th>Type</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>user</td>
+                <td>Pointer user</td>
+            </tr>
+
+            <tr>
+                <td>gallery</td>
+                <td>Pointer Gallery</td>
+            </tr>
+
+            <tr>
+                <td>subject</td>
+                <td>String</td>
+            </tr>
+
+            <tr>
+                <td>title</td>
+                <td>String</td>
+            </tr>
+
+            <tr>
+                <td>status</td>
+                <td>String</td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <img src="assets/images/parse_gallery_feedback.png">
+
+    <hr>
+    <h4>Create GalleryLike Class</h4>
+
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr class="head">
+            <th width="150">Input</th>
+            <th>Type</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>user</td>
+            <td>Pointer user</td>
+        </tr>
+
+        <tr>
+            <td>gallery</td>
+            <td>Pointer Gallery</td>
+        </tr>
+        </tbody>
+
+    </table>
+
+    <img src="assets/images/parse_gallery_like.png">
+
+    <hr>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Create GallerySetting Class</h4>
+            <table class="table table-striped table-bordered">
+                <thead>
+                <tr class="head">
+                    <th width="150">Input</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>key</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>value</td>
+                    <td>String</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h4>Add rows in GallerySetting Class</h4>
+
+            <table class="table table-striped table-bordered">
+                <thead>
+                <tr class="head">
+                    <th width="150">Input</th>
+                    <th>Type</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>imageSaveAlbum</td>
+                    <td>true</td>
+                </tr>
+
+                <tr>
+                    <td>imageHeight</td>
+                    <td>640</td>
+                </tr>
+
+                <tr>
+                    <td>imageWidth</td>
+                    <td>640</td>
+                </tr>
+
+                <tr>
+                    <td>imageEdit</td>
+                    <td>true</td>
+                </tr>
+
+                <tr>
+                    <td>imageQuality</td>
+                    <td>90</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <img src="assets/images/parse_gallery_setting.png">
+
+    <hr>
+    <h3 id="support"><strong>G) Full Support</strong> - <a href="#toc">top</a></h3>
+
+    <p>If you have any questions please email for photogram.ionic@gmail.com with the subject Photogram Question:</p>
+
+
+</div><!-- end div .container -->
 </body>
 </html>
