@@ -47,15 +47,20 @@
             font-weight: bold;
         }
 
-        .grid {
-
+        .screen .col {
+            display: inline-block;
+            width: 250px;
+            height: 550px;
+            margin: 0px 5px;
         }
 
-        .grid img {
-            max-width: 200px;
+        .screen h4{
+            text-align: center;
             display: block;
-            float: left;
-            margin-right: 15px;
+        }
+        .screen img {
+            width: 250px;
+            display: block;
             border: 1px solid #ddd;
             box-shadow: 3px 6px 15px 0px rgba(51, 51, 51, 0.35);
         }
@@ -151,6 +156,20 @@
         <li><a href="https://www.envato.com/" target="_blank">Envato</a></li>
     </ul>
 
+    <h2 class="alt">Test in your smarpthone!</h2>
+    <ul>
+        <li><a href="" target="_blank">Download and Install Android APK</a></li>
+        <li><a href="" target="_blank">Download and Install iOS IPA</a></li>
+    </ul>
+
+
+    <h2 class="alt">Future Features</h2>
+    <ul>
+        <li>Push with Parse</li>
+        <li>Full Profile with Tabs</li>
+        <li>AngularJS Jasmine Tests</li>
+    </ul>
+
     <hr>
     <h3 id="feature"><strong>A) Features</strong> - <a href="#toc">top</a></h3>
 
@@ -227,12 +246,59 @@
 
     <h3 id="screen"><strong>B) Screens</strong> - <a href="#toc">top</a></h3>
 
-    <div class="grid">
-        <img src="assets/images/splash.png">
-        <img src="assets/images/screen_home.png">
-        <img src="assets/images/screen_search_grid.png">
-        <img src="assets/images/screen_user.png">
-        <img src="assets/images/screen_profile_edit.png">
+    <div class="screen">
+        
+        <div class="col">
+            <h4>Splash</h4>
+            <img src="assets/images/splash.png">
+        </div>
+
+        <div class="col">
+            <h4>Intro</h4>
+            <img src="assets/gif/intro.gif">
+        </div>
+
+        <div class="col">
+            <h4>Login, Register or Facebook Signin</h4>
+            <img src="assets/gif/register.gif">
+        </div>
+        
+        <div class="col">
+            <h4>Recovery Password</h4>
+            <img src="assets/gif/recovery.gif">
+        </div>
+
+        <div class="col">
+            <h4>Gallery Home</h4>
+            <img src="assets/gif/gallery-home.gif">
+        </div>
+
+        <div class="col">
+            <h4>Gallery Comment</h4>
+            <img src="assets/gif/gallery-comment.gif">
+        </div>
+
+        <div class="col">
+            <h4>Gallery Search Grid</h4>
+            <img src="assets/gif/gallery-search.gif">
+        </div>
+
+        <div class="col">
+            <h4>Gallery Share Photo</h4>
+            <img src="assets/gif/gallery-share-photo.gif">
+        </div>
+
+        <div class="col">
+            <h4>Gallery Activity</h4>
+            <img src="assets/gif/gallery-activity.gif">
+        </div>
+
+        <div class="col">
+            <h4>Gallery Profile</h4>
+            <img src="assets/gif/profile.gif">
+        </div>
+
+
 
     </div>
 
@@ -358,35 +424,6 @@
                 <tr>
                     <td>$ gulp prod</td>
                     <td>Compile dev structure</td>
-                </tr>
-
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <hr>
-
-    <h4>Build Commands</h4>
-
-    <div class="row">
-        <div class="col-md-12">
-            <table class="table table-bordered table-striped">
-                <thead>
-                <tr>
-                    <th width="200">Command</th>
-                    <th>Descriptions</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>$ ./build platform</td>
-                    <td>Change plaform for platform (android, ios,etc) for build minify application</td>
-                </tr>
-
-                <tr>
-                    <td>$ ./run platform</td>
-                    <td>Change plaform for platform (android, ios,etc) for build and run minify application</td>
                 </tr>
 
                 </tbody>
