@@ -1,45 +1,53 @@
-
+body {
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: #fff;
+  padding: 0px 25px;
+}
  p,
         table,
         hr,
         .box {
             margin-bottom: 25px;
         }
-        
+
         .box p {
             margin-bottom: 10px;
         }
-        
+
         img {
             max-width: 100%;
             display: block;
             margin: 0 auto;
         }
-        
+
         .table > tbody > tr > td:first-child,
         h4 {
             font-weight: bold;
         }
-        
+
         .screen .col {
             display: inline-block;
             width: 250px;
             height: 550px;
             margin: 0px 5px;
         }
-        
+
         .screen h4 {
             text-align: center;
             display: block;
         }
-        
+
         .screen img {
             width: 250px;
             display: block;
             border: 1px solid #ddd;
             box-shadow: 3px 6px 15px 0px rgba(51, 51, 51, 0.35);
         }
-        
+
         iframe {
             background: #00635a;
             display: block;
